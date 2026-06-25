@@ -1,8 +1,8 @@
-// const numbers = [1,2,3,4];
-// const doubled = numbers.map((num) => {
-//   return num * 5;
-// })
-// console.log(doubled);
+const numbers = [1,2,3,4];
+const doubled = numbers.map((num) => {
+  return num * 5;
+})
+console.log(doubled);
 
 const name = ["nihala" ,"amna", "sulu"];
 const upperNames = name.map(name =>
@@ -31,4 +31,5 @@ const result = numbers.filter(
   num => num > 3
 );
 console.log(result);
+
 
